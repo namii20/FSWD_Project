@@ -1,11 +1,10 @@
 import './App.css'
+import Events from './pages/Student/Events'
 
 function App() {
-
   return (
     <div>
-      <p>Helooooooooooooooooooo</p>
-    <p>hello world </p>
+      <Events />
     </div>
   )
 }
