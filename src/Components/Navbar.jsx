@@ -1,13 +1,23 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav>
       <h2>College Events</h2>
 
       <ul>
-        <li>Home</li>
-        <li>Events</li>
-        <li>My Registrations</li>
-        <li>Login</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/events">Events</Link>
+        </li>
+        <li>
+          <Link to="/registrations">Registration</Link>
+        </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
       </ul>
     </nav>
   );
