@@ -23,7 +23,7 @@ function Events() {
     }
     ];
   return (
-    <div>
+    <div className="event-container">
         <Navbar/>
         <h1>College Events</h1>
         <p>Browse and register for upcoming events.</p>       

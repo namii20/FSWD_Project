@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-      <h2>College Events</h2>
+      <h2>🎓 College Events Management</h2>
 
       <ul>
         <li>
